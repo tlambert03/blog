@@ -1,7 +1,7 @@
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import { GradientBackground } from '../components/Layout';
-import Layout from '../components/Layout2';
+import Layout, { GradientBackground } from '../components/Layout';
+// import Layout from '../components/Layout2';
 import PostList from '../components/PostList';
 import SEO from '../components/SEO';
 import { getGlobalData } from '../utils/global-data';
