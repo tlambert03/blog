@@ -1,5 +1,5 @@
 module.exports = {
-  printWidth: 80,
+  printWidth: 88,
   semi: true,
   singleQuote: true,
   tabWidth: 2,
@@ -14,4 +14,5 @@ module.exports = {
   ],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
+  plugins: [require('prettier-plugin-tailwindcss')],
 };
